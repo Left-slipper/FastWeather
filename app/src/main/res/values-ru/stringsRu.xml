@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastWeather</string>
+    <string name="tab_text_1">Погода сегодня</string>
+    <string name="tab_text_2">Погода на неделю</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="settings">Настройки</string>
+    <string name="city">Введите город: </string>
+    <string name="wind_speed">Скорость ветра</string>
+    <string name="pressure">Давление</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресение</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="in">В</string>
+    <string name="today">Сегодня</string>
+    <string name="addCity">Добавить город</string>
+    <string name="deleteCity">Удалить города</string>
+
+    <string name="menu_home">Домой</string>
+    <string name="menu_gallery">Галереея</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Инструменты</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_send">Отправить</string>
+    <string name="add">Добавить</string>
+    <string name="update">Изменить</string>
+    <string name="remove">Удалить</string>
+    <string name="clear">Очистить</string>
+    <string name="search">Найти</string>
+    <string name="load">Загрузка</string>
+    <string name="search_location">Определение местоположения</string>
+    <string name="celciy">С°</string>
+</resources>

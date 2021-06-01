@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon4">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="364dp"
+        android:layout_height="608dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:alpha="0.9"
+        android:src="@drawable/circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gradus"
+        android:layout_width="138dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="328dp"
+        android:gravity="center"
+        android:text="19"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        />
+
+    <TextView
+        android:id="@+id/celFar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="116dp"
+        android:text="@string/celciy"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/speedWinterView"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="108dp"
+        android:gravity="center"
+        android:text="4 m/c"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/gradus" />
+
+    <TextView
+        android:id="@+id/pressureView"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:layout_marginStart="188dp"
+        android:textColor="@color/white"
+        android:text="776"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/gradus" />
+
+    <TextView
+        android:id="@+id/TimeView"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="10:02"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/pressureView" />
+
+    <TextView
+        android:id="@+id/DataView"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="пн 31 мая 2021 г"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/TimeView" />
+
+    <EditText
+        android:id="@+id/inCity"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:alpha="0.6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/searchCity"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toEndOf="@+id/inCity"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+</android.support.constraint.ConstraintLayout>
